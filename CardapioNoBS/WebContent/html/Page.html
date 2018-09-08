@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html><head>
+		<meta charset="ISO-8859-1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="../css/mystyle.css">
+		<script src="../js/myscripts.js"></script>
+		<title>Insert title here</title>
+	</head>
+<body>
+<div id="overlay" onclick="off()" style="display: none;">
+	<div id="overlay_box">
+		<div id="text_ov">Seu pedido foi recebido!</div>
+    <img src="../assets/done.png" alt="done!">
+    	<div id="text_ov">Subtotal:<br>
+<div id="result">R$5.60</div>
+</div>
+	</div>
+</div>
+        <div class="main">
+    <p>Atividade Pweb 7.1</p><br>
+		<div class="box">
+			<p>Escolha seu prato</p>	
+			<form class="form_pp" action="">
+				<input id="pp1" type="radio" name="pp" value="massa"> Massa<br>
+				<input id="pp2" type="radio" name="pp" value="carne"> Carne<br>
+				<input id="pp3" type="radio" name="pp" value="peixe"> Peixe<br>
+				<input id="pp4" type="radio" name="pp" value="frango"> Frango<br>   
+			</form>
+			<p>Acompanhamento</p>
+			<form class="form_acomp" action="">
+				<input id="ac1" type="checkbox" value="Salada">Salada - (Alface e tomate)<br>
+				<input id="ac2" type="checkbox" value="Legumes">Legumes - (Cenoura e brocolis)<br>
+				<input id="ac3" type="checkbox" value="Fritas">Fritas<br>
+				<input id="ac4" type="checkbox" value="Farofa">Farofa<br>  
+			</form>
+			<p>Convênio</p><br>         
+			<select id="drp1" class="drop_conv">
+              <option value="Fatec">Fatec</option>
+              <option value="Unip">Unip</option>
+              <option value="Uniso">Uniso</option>
+              <option value="Ufscar">Ufscar</option>
+            </select>
+            <p>Observacoes</p><br>        
+            <form class="form_ps" action="">
+  				<textarea rows="4" cols="50" name="ps"></textarea> 
+  				<br>
+			</form>    
+			<button onclick="setTotal()">Finalizar</button>
+		</div>
+            </div>
+
+
+</body></html>

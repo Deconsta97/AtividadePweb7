@@ -1,0 +1,125 @@
+@charset "ISO-8859-1";
+body{
+	background-image:url(../assets/food.png);
+	margin-top: 7vw;
+	background-size: 26%;
+}
+.box{
+    font: 2vw calibri;
+    background-color: #fff6b4;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    text-align: center;
+    border-radius: 7%;
+}
+p{
+	width: fit-content;
+	height: fit-content;
+	display: contents;
+}
+.form_pp{
+    position: relative;
+    margin: auto;
+    width: -webkit-fill-available;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    background-color: burlywood;
+    display: flex;
+    font: 1vw calibri;
+    padding: 0.3vw;
+    border-radius: 20px;
+}
+.form_acomp{
+    margin: initial;
+    width: -webkit-fill-available;
+    height: fit-content;
+    align-items: center;
+    text-align: initial;
+    background-color: burlywood;
+    display: block;
+    font: 1vw calibri;
+    padding: 0.3vw;
+    border-radius: 20px;
+}
+.form_ps{
+    position: relative;
+    margin: 0px;
+    background-color: burlywood;
+    display: flex;
+    padding: 0.3vw;
+    justify-content: center;
+}
+textarea{
+    margin: 0px;
+    min-height: 4vw;
+    max-width: 25vw;
+    min-width: 14vw;
+    height: 3vw;
+}
+.drop_conv{
+    margin: auto;
+    width: -webkit-fill-available;
+    height: fit-content;
+    background-color: burlywood;
+    display: block;
+    font: 1vw calibri;
+    padding: 0.3vw;
+    border-radius: 20px;
+}
+.main
+{
+	width: fit-content;
+	height: fit-content;
+	margin: auto;
+	font: 2vw Calibri;
+	background-color: cornsilk;
+	text-align: center;
+	padding: 1%;
+	border-radius: 8%;
+}
+#overlay{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+#overlay_box{
+	position: relative;
+	margin-top: 13%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 32%;
+	height: fit-content;
+	background-color: #fff6b4e8;
+	text-align: center;
+	border-radius: 18px;
+}
+#text_ov{
+    position: relative;
+    font: 3vw calibri;
+    color: #1b9d00;
+    -ms-transform: translate(-50%,-50%);
+    text-align: center;
+}
+button{
+	width: fit-content;
+	font: .9vw Calibri;
+	border-radius: 1vw;
+	text-align: center;
+}
+button:hover {
+    background-color: burlywood;
+    color: azure;
+}
+img{
+	width: 15vw;
+}
